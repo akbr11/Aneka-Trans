@@ -2,6 +2,7 @@
    1. IMPORT GOOGLE FONTS
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");
+
 /* ==========================================================================
    2. GENERAL
    ========================================================================== */
@@ -26,7 +27,8 @@ p {
   margin-bottom: 0;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #F97794;
 }
 
@@ -38,7 +40,11 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -64,7 +70,8 @@ a:not([href]):not([tabindex]) {
   color: #fff;
 }
 
-a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
@@ -336,7 +343,8 @@ button:focus {
   margin: 0px auto;
 }
 
-.double-bounce1, .double-bounce2 {
+.double-bounce1,
+.double-bounce2 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -355,19 +363,25 @@ button:focus {
 }
 
 @-webkit-keyframes sk-bounce {
-  0%, 100% {
+
+  0%,
+  100% {
     -webkit-transform: scale(0);
   }
+
   50% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes sk-bounce {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
+
   50% {
     transform: scale(1);
     -webkit-transform: scale(1);
@@ -521,7 +535,7 @@ button:focus {
 
 .navbar-expand-md .navbar-nav .nav-link {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   padding: 5px 0px;
   margin-left: 30px;
   position: relative;
@@ -535,6 +549,7 @@ button:focus {
   width: 0;
   height: 2px;
   background: #F97794;
+  color: #000;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
@@ -552,20 +567,20 @@ button:focus {
 .navbar-expand-md .navbar-nav .nav-link:focus,
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link:hover:before {
-  color: #F97794;
+  color: #e74c3c;
 }
 
-.navbar-expand-md .navbar-nav .active > .nav-link,
+.navbar-expand-md .navbar-nav .active>.nav-link,
 .navbar-expand-md .navbar-nav .nav-link.active,
 .navbar-expand-md .navbar-nav .nav-link.active:before,
 .navbar-expand-md .navbar-nav .nav-link.open,
-.navbar-expand-md .navbar-nav .open > .nav-link {
-  color: #F97794;
+.navbar-expand-md .navbar-nav .open>.nav-link {
+  color: #e74c3c;
 }
 
 .navbar-expand-md .navbar-toggler {
-  background: #F97794;
-  border-radius: 0px;
+  background: #e74c3c;
+  border-radius: 5px;
   margin: 5px;
   cursor: pointer;
   float: right;
@@ -580,7 +595,7 @@ button:focus {
 }
 
 .collapse.show {
-  background: #3e3a3a;
+  background: #f2f2f2;
   margin-bottom: 10px;
   -webkit-transition: 0.6s;
   -moz-transition: 0.6s;
@@ -588,7 +603,7 @@ button:focus {
 }
 
 .menu-bg .collapse.show {
-  background: #fff;
+  background: #f2f2f2;
   margin-bottom: 10px;
   -webkit-transition: 0.6s;
   -moz-transition: 0.6s;
@@ -596,15 +611,15 @@ button:focus {
 }
 
 .navbar-expand-md .navbar-toggler:active {
-  border: 1px solid #F97794;
-  color: #F97794;
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
 }
 
 /* ==========================================================================
    Hero Area
    ========================================================================== */
 .hero-area {
-  background: url(../img/hero-area.jpg) no-repeat;
+  background: url("../../img/mobil/image_8.jpg") no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -682,8 +697,9 @@ button:focus {
  Hero Production version
  ========================================================================== */
 .hero-area-2 {
-  background: url(../img/bg/hero-area-2.jpg) fixed no-repeat;
+  background: url("../img/mobil/image_8.jpg") fixed no-repeat;
   background-size: cover;
+  background-position: center;
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -904,8 +920,10 @@ button:focus {
   line-height: 26px;
 }
 
-#about .show-box {
-  margin: 30px 40px;
+#about .show-box img{
+  width: 600px;
+  position: relative;
+  border-radius: 10px;
 }
 
 /* ==========================================================================
@@ -1564,7 +1582,8 @@ button:focus {
   -o-transition: all 0.4s ease-in-out;
 }
 
-.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
   background: #F97794;
 }
 
@@ -1699,11 +1718,13 @@ button:focus {
   animation-name: fadeIn;
 }
 
-#carousel-area .carousel-control-next, #carousel-area .carousel-control-prev {
+#carousel-area .carousel-control-next,
+#carousel-area .carousel-control-prev {
   opacity: 1;
 }
 
-#carousel-area .carousel-control-next i, #carousel-area .carousel-control-prev i {
+#carousel-area .carousel-control-next i,
+#carousel-area .carousel-control-prev i {
   width: 48px;
   line-height: 48px;
   height: 48px;
@@ -1718,7 +1739,8 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#carousel-area .carousel-control-next i:hover, #carousel-area .carousel-control-prev i:hover {
+#carousel-area .carousel-control-next i:hover,
+#carousel-area .carousel-control-prev i:hover {
   opacity: 0.9;
 }
 
@@ -1964,7 +1986,8 @@ button:focus {
   box-shadow: none;
 }
 
-.btn.disabled, .btn:disabled {
+.btn.disabled,
+.btn:disabled {
   opacity: 1;
 }
 
@@ -2388,3 +2411,5 @@ footer .menu li a:hover {
   font-size: 18px;
   margin-bottom: 0;
 }
+
+
