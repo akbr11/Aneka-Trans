@@ -716,6 +716,7 @@ button:focus {
 }
 
 .hero-area-2 .contents {
+  margin-top: 45px;
   padding: 160px 0 140px;
 }
 
@@ -727,7 +728,7 @@ button:focus {
 
 .hero-area-2 .contents h2 {
   color: #fff;
-  font-size: 42px;
+  font-size: 35px;
   margin-bottom: 30px;
   font-weight: 700;
 }
