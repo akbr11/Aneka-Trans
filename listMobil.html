@@ -29,7 +29,7 @@
       <header id="home" class="hero-area-2 img-fluid">
           <div class="overlay"></div>
           <div class="navigation">
-              <nav class="navbar navbar-expand-md scrolling-navbar fixed-top">
+              <nav class="navbar navbar-expand-md bg-light scrolling-navbar fixed-top">
                   <div class="container">
                       <a href="#" class="navbar-brand">
                           <img src="/img/mobil/logoAnekaTrans.png" width="80px" class="img-fluid" alt="logo">
@@ -38,19 +38,19 @@
                           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                           <i class="lni-menu"></i>
                       </button>
-                      <div class="collapse navbar-collapse" id="navbarCollapse">
-                          <ul class="navbar-nav ml-auto w-100 justify-content-end">
-                              <li class="nav-item">
-                                  <a class="nav-link page-scroll" href="index.html">Beranda</a>
+                      <div class="collapse navbar-collapse" id="navbarCollapse" style="color: #000;">
+                          <ul class="navbar-nav ml-auto w-100 justify-content-end" >
+                              <li class="nav-item" >
+                                  <a class="nav-link page-scroll" href="index.html" style="color: #000;">Beranda</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link page-scroll" href="about.html">Tentang</a>
+                                  <a class="nav-link page-scroll" href="about.html" style="color: #000;">Tentang</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link page-scroll" href="listMobil.html">Daftar Mobil</a>
+                                  <a class="nav-link page-scroll" href="listMobil.html" style="color: #000;">Daftar Mobil</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link page-scroll" href="#portfolios">Hubungi</a>
+                                  <a class="nav-link page-scroll" href="contact.html" style="color: #000;">Hubungi</a>
                               </li>
                           </ul>
                       </div>
@@ -58,7 +58,7 @@
               </nav>
           </div>
 
-          <div class="container">
+          <!-- <div class="container">
               <div class="row justify-content-center">
                   <div class="col-xl-8 col-lg-9 col-md-12 col-sm-12">
                       <div class="contents text-center">
@@ -74,29 +74,29 @@
                       </div>
                   </div>
               </div>
-          </div>
+          </div> -->
       </header>
       <!-- Header Section End -->
 
       <!-- Services Section Start -->
       <section id="services" class="section">
           <div class="container">
-              <div class="section-header">
+              <div class="section-header" style="margin-top: 80px;">
                   <h2 class="section-title">Daftar Mobil</h2>
                   <span>Daftar Mobil</span>
                   <p class="section-subtitle">Kami menyediakan beberapa armada untuk kenyamanan dalam diperjalanan</p>
               </div>
               <div class="row">
-                  <div class="col-lg-6 col-md-6 col-xs-12">
-                      <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s">
-                          <img src="/img/mobil/kijang-inova.png" alt="">
+                  <div class="col-lg-6 col-md-6 col-xs-12" data-tilt>
+                      <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s" >
+                          <img src="/img/mobil/kijang-inova.png" alt="" >
                           <h4 style="margin-top: 10px;">TOYOTA KIJANG INNOVA REBORN</h4>
                           <p>Innova Reborn Merupakan solusi untuk kebutuhan mobilitas anda sehari-hari. Salah satu mobil
                               favorit keluarga Indonesi, untuk perjalanan anda dan keluarga, maupun bersama rekan-rekan
                               anda.</p>
                       </div>
                   </div>
-                  <div class="col-lg-6 col-md-6 col-xs-12">
+                  <div class="col-lg-6 col-md-6 col-xs-12" data-tilt>
                       <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s">
                           <img src="/img/mobil/alphard.png" alt="">
                           <h4 style="margin-top: 30px;">TOYOTA ALPHARD</h4>
@@ -107,7 +107,7 @@
                               atas di Indonesia.</p>
                       </div>
                   </div>
-                  <div class="col-lg-6 col-md-6 col-xs-12">
+                  <div class="col-lg-6 col-md-6 col-xs-12" data-tilt>
                       <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s">
                           <img src="/img/mobil/fortuner.png" alt="">
                           <h4 style="margin-top: 20px;">TOYOTA FORTUNER VRZ</h4>
@@ -116,7 +116,7 @@
                               dapat memberi kenyamanan untuk penumpang.</p>
                       </div>
                   </div>
-                  <div class="col-lg-6 col-md-6 col-xs-12">
+                  <div class="col-lg-6 col-md-6 col-xs-12" data-tilt>
                       <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s">
                           <img src="/img/mobil/bus.png" alt="">
                           <h4 style="margin-top: 20px;">BUS PARIWISATA</h4>
@@ -205,6 +205,8 @@
           </div>
       </div>
 
+
+      <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
       <!-- jQuery first, then Tether, then Bootstrap JS. -->
       <script src="js/jquery-min.js"></script>
       <script src="js/popper.min.js"></script>
