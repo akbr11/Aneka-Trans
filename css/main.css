@@ -999,10 +999,13 @@ button:focus {
 }
 
 .call-action {
-  background: #f9f9f9;
+  background: url("/img/mobil/image_10.jpeg") no-repeat center;
+  background-size: cover;
+  background-position: center;
 }
 
 .call-action .cta-trial h3 {
+  color: #fff;
   font-size: 28px;
   font-weight: 500;
   margin-bottom: 28px;
