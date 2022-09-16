@@ -999,7 +999,7 @@ button:focus {
 }
 
 .call-action {
-  background: url("/img/mobil/image_10.jpeg") no-repeat center;
+  background: url('../img/mobil/image_10.jpeg') no-repeat center;
   background-size: cover;
   background-position: center;
 }
